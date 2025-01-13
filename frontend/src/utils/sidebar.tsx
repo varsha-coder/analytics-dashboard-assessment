@@ -87,6 +87,7 @@ const Sidebar = () => {
         year: prevFilters.year || mainContext.yearList[0] || "",
       }));
     }
+
   }, []);
 
   useEffect(() => {
