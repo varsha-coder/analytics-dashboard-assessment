@@ -87,7 +87,7 @@ const Sidebar = () => {
         year: prevFilters.year || mainContext.yearList[0] || "",
       }));
     }
-
+    // Empty dependency array to run only on mount
   }, []);
 
   useEffect(() => {
